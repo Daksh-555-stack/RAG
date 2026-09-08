@@ -1,0 +1,22 @@
+# ── Web app ───────────────────────────────────────────────────────────
+streamlit>=1.37,<2.0
+
+# ── LangChain (0.3.x line — the spec's package split) ─────────────────
+langchain>=0.3.0,<1.0
+langchain-community>=0.3.0,<1.0
+langchain-huggingface>=0.2.0,<1.0
+langchain-openai>=0.2.0,<1.0
+langchain-groq>=0.2.0,<1.0
+
+# ── Embeddings (local, free, no API key needed) ───────────────────────
+sentence-transformers>=3.0.0
+
+# ── Vector database (local FAISS, no server needed) ───────────────────
+faiss-cpu>=1.8.0,<2.0
+
+# ── PDF parsing ───────────────────────────────────────────────────────
+pypdf>=4.0.0
+
+# ── Config / secrets ──────────────────────────────────────────────────
+python-dotenv>=1.0.0
+huggingface_hub>=0.24.0

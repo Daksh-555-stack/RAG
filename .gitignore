@@ -1,0 +1,27 @@
+# ── Python ────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.conda/
+
+# ── Secrets / environment ────────────────
+.env
+.streamlit/secrets.toml
+
+# ── Build artifacts ──────────────────────
+dist/
+build/
+*.log
+
+# ── Persisted vector stores (rebuilt at runtime) ──
+data/vector_store/*
+!data/vector_store/.gitkeep
+
+# ── OS / IDE ─────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
